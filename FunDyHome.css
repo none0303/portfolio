@@ -1,0 +1,132 @@
+body{
+    width:1250px;
+}
+h3 {
+    text-align: center;
+}
+.title {
+    padding: 0.7em; /*内側の余白*/
+     border: none; /*枠線を表示しない*/
+     border-radius: 15px; /*丸みを調整*/ 	
+     background-color: #ffd700; /*背景色*/
+     display: inline-block;
+     color: #ffffff;
+  }
+
+.giveup {
+    position: fixed;
+    color: #ffffff;
+    background-color: rgb(247, 81, 26);
+    border-radius: 20px;
+    padding: 10px;
+    width:  200px;
+    text-align: center;
+    right: 10px;
+    top: 40px;
+  }
+
+  .btn-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 90vw;
+}
+.btn {
+    text-decoration-line: none;
+    padding: 15px 20px;
+    color: #ffffff;
+    letter-spacing: 3pt;
+    background-color: #ffffff;
+    background-color: #ffd700;
+    border-radius: 7px;
+    border: none;
+}
+#bgc{
+    color: #ffffff;
+    background-color: #87cefa;
+    border-radius: 20px;
+    padding: 10px;
+    width:  200px;
+    text-align: center;
+    left: 210px;
+    top: 15px;
+}
+.login {
+    color: #ffffff;
+    text-decoration-line: none;
+}
+
+#sbox1{
+    position: fixed;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    left: 520px;
+    top: 40px;
+    border-color: #333;
+    color: #333;
+    }
+#sbtn1 {
+        position: fixed;
+        color: #ffffff;
+        background-color: #87cefa;
+        border-color: #333;
+        border-radius: 20px;
+        padding: 10px;
+        width: 200px;
+        text-align: center;
+        left: 210px;
+        top: 40px;
+}    
+#test {
+    color: #ffffff;
+    background-color: #6091d3;
+    font-size: 28px;
+    border-radius: 20px;
+    padding: 10px;
+    width: 1000px;
+    height: 70px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 100px;
+}
+
+#post {
+    color: #ffffff;
+    background-color: #456fa7;
+    border-radius: 20px;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 220px;
+}
+#testpage {
+    position: absolute;
+    color: black;
+    background-color: #ffd700;
+    border-radius: 20px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    right: 135px;
+    top: 135px;
+}
+a{
+    color: #ffffff;
+}
+#postlist {
+    color: #ffffff;
+    border-radius: 20px;
+    padding: 20px;
+    width: 80vw;
+    text-align: center;
+    margin: 0 auto;
+    top: 300px;
+    background-color: #6091d3;
+}

@@ -1,0 +1,12 @@
+#nt{
+   font-size: 70px; 
+   font-weight: bold;
+   color: white;
+   text-align: left;
+}
+body{
+    background-image: url(backimage.jpg);
+}
+p{
+    text-align: right;
+}
